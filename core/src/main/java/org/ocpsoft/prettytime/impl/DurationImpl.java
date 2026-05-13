@@ -75,11 +75,11 @@ public class DurationImpl implements Duration
    @Override
    public long getQuantityRounded(int tolerance)
    {
-      long quantity = Math.abs(getQuantity());
+      long quantity = Math.abs(getQuantity()); // this line is make sure it works for negtive values
 
-      if (getDelta() != 0)
+      if (getDelta() != 0) // is there any leftover?
       {
-         double threshold = Math
+         double threshold = Math //tranformar leftover para percent de uma unidade, ex: se unidade é 1 minuto e leftover=30 seg, então threshold é 50%   
                   .abs(((double) getDelta() / (double) getUnit().getMillisPerUnit()) * 100);
          if (threshold > tolerance)
          {
