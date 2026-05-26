@@ -1,0 +1,264 @@
+
+Test Case 1  		<error>
+   delta :  lt_minus60000
+
+
+Test Case 2  		<single>
+   delta :  delta_zero
+
+
+Test Case 3  		<error>
+   delta :  gt_plus60000
+
+
+Test Case 4  		(Key = 1.2.1.)
+   quantity   :  negative
+   delta      :  minus60000
+   tolerance  :  tol_negative
+
+
+Test Case 5  		(Key = 1.2.2.)
+   quantity   :  negative
+   delta      :  minus60000
+   tolerance  :  tol_zero
+
+
+Test Case 6  		(Key = 1.2.3.)
+   quantity   :  negative
+   delta      :  minus60000
+   tolerance  :  lt_threshold
+
+
+Test Case 7  		(Key = 1.3.1.)
+   quantity   :  negative
+   delta      :  delta_negative
+   tolerance  :  tol_negative
+
+
+Test Case 8  		(Key = 1.3.2.)
+   quantity   :  negative
+   delta      :  delta_negative
+   tolerance  :  tol_zero
+
+
+Test Case 9  		(Key = 1.3.3.)
+   quantity   :  negative
+   delta      :  delta_negative
+   tolerance  :  lt_threshold
+
+
+Test Case 10 		(Key = 1.3.4.)
+   quantity   :  negative
+   delta      :  delta_negative
+   tolerance  :  gt_threshold
+
+
+Test Case 11 		(Key = 1.5.1.)
+   quantity   :  negative
+   delta      :  delta_positive
+   tolerance  :  tol_negative
+
+
+Test Case 12 		(Key = 1.5.2.)
+   quantity   :  negative
+   delta      :  delta_positive
+   tolerance  :  tol_zero
+
+
+Test Case 13 		(Key = 1.5.3.)
+   quantity   :  negative
+   delta      :  delta_positive
+   tolerance  :  lt_threshold
+
+
+Test Case 14 		(Key = 1.5.4.)
+   quantity   :  negative
+   delta      :  delta_positive
+   tolerance  :  gt_threshold
+
+
+Test Case 15 		(Key = 1.6.1.)
+   quantity   :  negative
+   delta      :  plus60000
+   tolerance  :  tol_negative
+
+
+Test Case 16 		(Key = 1.6.2.)
+   quantity   :  negative
+   delta      :  plus60000
+   tolerance  :  tol_zero
+
+
+Test Case 17 		(Key = 1.6.3.)
+   quantity   :  negative
+   delta      :  plus60000
+   tolerance  :  lt_threshold
+
+
+Test Case 18 		(Key = 2.2.1.)
+   quantity   :  zero
+   delta      :  minus60000
+   tolerance  :  tol_negative
+
+
+Test Case 19 		(Key = 2.2.2.)
+   quantity   :  zero
+   delta      :  minus60000
+   tolerance  :  tol_zero
+
+
+Test Case 20 		(Key = 2.2.3.)
+   quantity   :  zero
+   delta      :  minus60000
+   tolerance  :  lt_threshold
+
+
+Test Case 21 		(Key = 2.3.1.)
+   quantity   :  zero
+   delta      :  delta_negative
+   tolerance  :  tol_negative
+
+
+Test Case 22 		(Key = 2.3.2.)
+   quantity   :  zero
+   delta      :  delta_negative
+   tolerance  :  tol_zero
+
+
+Test Case 23 		(Key = 2.3.3.)
+   quantity   :  zero
+   delta      :  delta_negative
+   tolerance  :  lt_threshold
+
+
+Test Case 24 		(Key = 2.3.4.)
+   quantity   :  zero
+   delta      :  delta_negative
+   tolerance  :  gt_threshold
+
+
+Test Case 25 		(Key = 2.5.1.)
+   quantity   :  zero
+   delta      :  delta_positive
+   tolerance  :  tol_negative
+
+
+Test Case 26 		(Key = 2.5.2.)
+   quantity   :  zero
+   delta      :  delta_positive
+   tolerance  :  tol_zero
+
+
+Test Case 27 		(Key = 2.5.3.)
+   quantity   :  zero
+   delta      :  delta_positive
+   tolerance  :  lt_threshold
+
+
+Test Case 28 		(Key = 2.5.4.)
+   quantity   :  zero
+   delta      :  delta_positive
+   tolerance  :  gt_threshold
+
+
+Test Case 29 		(Key = 2.6.1.)
+   quantity   :  zero
+   delta      :  plus60000
+   tolerance  :  tol_negative
+
+
+Test Case 30 		(Key = 2.6.2.)
+   quantity   :  zero
+   delta      :  plus60000
+   tolerance  :  tol_zero
+
+
+Test Case 31 		(Key = 2.6.3.)
+   quantity   :  zero
+   delta      :  plus60000
+   tolerance  :  lt_threshold
+
+
+Test Case 32 		(Key = 3.2.1.)
+   quantity   :  positive
+   delta      :  minus60000
+   tolerance  :  tol_negative
+
+
+Test Case 33 		(Key = 3.2.2.)
+   quantity   :  positive
+   delta      :  minus60000
+   tolerance  :  tol_zero
+
+
+Test Case 34 		(Key = 3.2.3.)
+   quantity   :  positive
+   delta      :  minus60000
+   tolerance  :  lt_threshold
+
+
+Test Case 35 		(Key = 3.3.1.)
+   quantity   :  positive
+   delta      :  delta_negative
+   tolerance  :  tol_negative
+
+
+Test Case 36 		(Key = 3.3.2.)
+   quantity   :  positive
+   delta      :  delta_negative
+   tolerance  :  tol_zero
+
+
+Test Case 37 		(Key = 3.3.3.)
+   quantity   :  positive
+   delta      :  delta_negative
+   tolerance  :  lt_threshold
+
+
+Test Case 38 		(Key = 3.3.4.)
+   quantity   :  positive
+   delta      :  delta_negative
+   tolerance  :  gt_threshold
+
+
+Test Case 39 		(Key = 3.5.1.)
+   quantity   :  positive
+   delta      :  delta_positive
+   tolerance  :  tol_negative
+
+
+Test Case 40 		(Key = 3.5.2.)
+   quantity   :  positive
+   delta      :  delta_positive
+   tolerance  :  tol_zero
+
+
+Test Case 41 		(Key = 3.5.3.)
+   quantity   :  positive
+   delta      :  delta_positive
+   tolerance  :  lt_threshold
+
+
+Test Case 42 		(Key = 3.5.4.)
+   quantity   :  positive
+   delta      :  delta_positive
+   tolerance  :  gt_threshold
+
+
+Test Case 43 		(Key = 3.6.1.)
+   quantity   :  positive
+   delta      :  plus60000
+   tolerance  :  tol_negative
+
+
+Test Case 44 		(Key = 3.6.2.)
+   quantity   :  positive
+   delta      :  plus60000
+   tolerance  :  tol_zero
+
+
+Test Case 45 		(Key = 3.6.3.)
+   quantity   :  positive
+   delta      :  plus60000
+   tolerance  :  lt_threshold
+
