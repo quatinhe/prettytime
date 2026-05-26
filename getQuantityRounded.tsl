@@ -1,0 +1,20 @@
+Parameters:
+    quantity:
+	negative.
+	zero.
+	positive.
+
+    delta:
+	lt_minus60000.		[error]
+	minus60000.		[property DeltaMax]
+	delta_negative.
+	delta_zero.		[single]
+	delta_positive.
+	plus60000.		[property DeltaMax]
+	gt_plus60000.		[error]
+
+    tolerance:
+	tol_negative.		[property TolNeg]
+	tol_zero.		[property TolZero]
+	lt_threshold.
+	gt_threshold.		[if !TolNeg && !TolZero && !DeltaMax]
